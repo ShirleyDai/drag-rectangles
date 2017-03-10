@@ -1,0 +1,12 @@
+<p id='operlap-area'>The value of overlap area is: <span>0</span>pxs.</p>
+
+
+<div class="rectangle-list" >
+	<rectangle ng-repeat="rectangle in $ctrl.rectangles" class="rectangle-item" draggable="true" id="{{rectangle.id}}" >{{rectangle.id}}</rectangle>
+</div>
+
+<div class="overLap-container">
+	<canvas id="operlap" style="width:0; height:0;"></canvas>
+</div>
+
+

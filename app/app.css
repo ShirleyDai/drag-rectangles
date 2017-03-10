@@ -1,0 +1,25 @@
+.view-container {
+	position: relative;
+}
+
+.rectangle-list,
+.overLap-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.overLap-container {
+	z-index: 100;
+}
+
+.rectangle-item {
+	width: 100px;
+	height: 100px;
+	display: block;
+	border:  1px solid black;
+}
+
+#operlap-area {
+	z-index:  101;
+}
