@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('rectangleApp', []);
+angular.module('rectangleApp', ['rectangleList']);

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.
-module('rectangleApp').
+module('rectangleList').
 component('rectangleList', {
 	templateUrl: 'rectangle-list/rectangle-list.template.html',
 	controller: function RectangleListController() {
